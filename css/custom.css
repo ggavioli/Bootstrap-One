@@ -1,0 +1,180 @@
+﻿/* Vos customisations des classes de Bootstrap */
+/*@font-face {
+	font-family: "fontawesome"
+	src: url("../fonts/fontawesome-webfont.eot");
+	src: url("../fonts/fontawesome-webfont.eot?#iefix") format('eot'),
+	url('../fonts/fontawesome-webfont.woff') format('woff'),
+	url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+	url('../fonts/fontawesome-webfont.svg#2Macroman') format('svg');*/
+/*body{
+	margin-right: 25px;
+	margin-left: 25px;
+}*/
+
+[class*="col"] {
+    margin-bottom: 20px;
+    
+}
+#home {
+	margin-bottom: 0px;
+	background: url("../images/hero-image.jpg") top ;
+	padding-top: 14 px;
+	margin: 0px;
+	border-radius: 0px;
+	 }
+
+.navbar {
+    margin-bottom: 20px;
+	color: white;
+}
+
+.jumbotron p {
+	margin-top: 40px;
+}
+
+
+.jumbotron h1,p {
+	color: #fff;
+	font-family : fontawesome, Tahoma, Arial, sans-serif;
+	font-weight:lighter;
+}
+
+.jumbotron hr
+{
+	border-style: none;
+}
+.jumbotron .btn {
+	width: 300px;
+    padding: 10px;
+    font-size:20px;
+	background-color : red;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+}
+.code{
+	margin-top: 20px;
+	
+}
+
+.glyphicon{
+	color: black;
+	margin-top : 0px;
+	margin-right: 40px;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.btn-circle {
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	padding: 6px 0px;
+	font-size: 12px;
+	border-color:#171919;
+	line-height: 1.42;
+	border-radius: 80px;
+}
+.
+
+#who{
+	text-align : center;
+	background-color : #eee;
+}
+
+#who p{
+	color: black;
+	font-family : "glyphicons-halflings-regular", Tahoma, Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+.ligne{
+	border-color: #F00;
+	padding: 0px;
+	max-width: 250px;
+	border-style: solid none none;
+	
+}
+.academy{
+	text-align: center;
+	margin-top: 20px;
+}
+#get-involved h2{
+	color :red;
+}
+#get-involved p{
+	color :black;
+}
+
+.back-to-top {
+    height: 32px;
+    width: 32px;
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer{
+		background-color: #FF1B00;
+		height: 200px;
+		padding-top: 90px;
+		padding-left: 40px;
+		margin-top: 50px;
+		
+	}
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+/*.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}*/
+}
+
+@media (max-width: 991px) {
+.academy .pull-center-left {
+margin-left: 28px;}
+
+.col-md-4{
+	
+	position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.glyphicon{
+	margin-right: -20px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.container{
+	padding : 0px;
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+}
